@@ -2,6 +2,7 @@ package com.zipcodewilmington.bakery.models;
 
 
 import org.hibernate.annotations.Generated;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
+
 public class Baker {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
